@@ -1,0 +1,13 @@
+{
+    "taskName": "Build an run lastenausgleicher",
+    "command": "nim",
+    "args": ["c", "-r", "lastenausgleicher.nim"],
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+    "type": "shell",
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}
